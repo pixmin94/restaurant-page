@@ -11,9 +11,22 @@ function createHeader() {
     header.appendChild(restaurantName);
     console.log(header)
   
-    const content = document.getElementById("content");
-    console.log(content)
-    content.appendChild(header);
+    return header;
   }
 
-  createHeader();
+  function createMain() {
+    const main = document.createElement("main");
+    main.classList.add("main");
+    main.textContent = "test";
+    main.setAttribute("id", "main");
+    return main;
+  }
+
+  function initializeWebsite(){
+    const content = document.getElementById("content");
+    console.log(content)
+    content.appendChild(createHeader());
+    content.appendChild(createMain());
+  }
+
+  initializeWebsite();
