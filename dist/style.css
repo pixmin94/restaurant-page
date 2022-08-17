@@ -1,0 +1,42 @@
+:root {
+    --font-color: #000D56;
+    --background: #E9ECF3;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo {
+    border-radius: 50%;
+    height: 75px;
+    margin-right: 20px;
+}
+
+.restaurant-name {
+    font-family: 'Monaco', 'Optima', Calibri;
+    color: var(--font-color);
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #B2BEE6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+    font-family: 'Monaco', 'Optima', Calibri;
+}
