@@ -64,3 +64,4 @@ function createHeader() {
   }
 
   init();
+  loadHome();
