@@ -40,3 +40,20 @@ nav {
     margin-right: 5px;
     font-family: 'Monaco', 'Optima', Calibri;
 }
+
+/* Home */
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Monaco', 'Optima', Calibri;
+    font-size: medium;
+}
+
+.group-pic {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
